@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bxvyo2yf863k6"]
+
+[ext_resource type="Script" uid="uid://c7vmdnjlcf87" path="res://entities/BaseAgent.gd" id="1_ryj45"]
+
+[node name="BaseAgent" type="Node2D"]
+script = ExtResource("1_ryj45")

@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://e7muhl3ej60s"]
+
+[ext_resource type="PackedScene" uid="uid://c6gvw07detgi4" path="res://entities/roles/FieldAgent.tscn" id="2_1bvp3"]
+[ext_resource type="PackedScene" uid="uid://bus2dki58j4gu" path="res://entities/roles/MTF.tscn" id="3_lquwl"]
+[ext_resource type="PackedScene" uid="uid://busdwmp06smor" path="res://entities/roles/Researcher.tscn" id="4_7mycd"]
+[ext_resource type="PackedScene" uid="uid://clxbeapjjlj6q" path="res://entities/VisualAgent.tscn" id="5_lquwl"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="VisualAgent" parent="." instance=ExtResource("5_lquwl")]
+position = Vector2(503, 172)
+
+[node name="FieldAgent" parent="." instance=ExtResource("2_1bvp3")]
+position = Vector2(170, 159)
+
+[node name="Mtf" parent="." instance=ExtResource("3_lquwl")]
+position = Vector2(174, 376)
+
+[node name="Researcher" parent="." instance=ExtResource("4_7mycd")]
+position = Vector2(531, 410)

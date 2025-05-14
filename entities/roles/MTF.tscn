@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://bus2dki58j4gu"]
+
+[ext_resource type="Script" uid="uid://iu561c0wcj4c" path="res://entities/roles/MTF.gd" id="1_clbfp"]
+[ext_resource type="PackedScene" uid="uid://clxbeapjjlj6q" path="res://entities/VisualAgent.tscn" id="2_6m4yw"]
+
+[node name="Mtf" type="Node2D"]
+script = ExtResource("1_clbfp")
+visual_scene = ExtResource("2_6m4yw")

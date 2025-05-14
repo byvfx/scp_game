@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://clxbeapjjlj6q"]
+
+[ext_resource type="Script" uid="uid://dsdn4nisvdjak" path="res://entities/VisualAgent.gd" id="1_oavxc"]
+[ext_resource type="Texture2D" uid="uid://bvfd52r8v6woh" path="res://assets/researcher_sprite_sheet.png" id="2_er6ug"]
+
+[node name="VisualAgent" type="Node2D"]
+script = ExtResource("1_oavxc")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1, 55)
+scale = Vector2(0.230469, 0.226563)
+texture = ExtResource("2_er6ug")
+region_enabled = true
+region_rect = Rect2(60.9171, 31.2383, 241.577, 399.699)
+
+[node name="Label" type="Label" parent="Sprite2D"]
+offset_left = -251.661
+offset_top = -357.516
+offset_right = 243.339
+offset_bottom = -203.516
+theme_override_font_sizes/font_size = 50
+autowrap_mode = 3
+uppercase = true

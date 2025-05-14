@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://busdwmp06smor"]
+
+[ext_resource type="Script" uid="uid://rr5qve8gilqj" path="res://entities/roles/Researcher.gd" id="1_ndu4u"]
+[ext_resource type="PackedScene" uid="uid://clxbeapjjlj6q" path="res://entities/VisualAgent.tscn" id="2_uq5km"]
+
+[node name="Researcher" type="Node2D"]
+script = ExtResource("1_ndu4u")
+visual_scene = ExtResource("2_uq5km")
